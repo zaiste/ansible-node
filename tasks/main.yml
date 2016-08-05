@@ -1,0 +1,9 @@
+---
+- name: add APT repository
+  apt_repository: repo='deb https://deb.nodesource.com/node_6.x xenial main' state=present
+- name: add APT repository (src)
+  apt_repository: repo='deb-src https://deb.nodesource.com/node_6.x xenial main' state=present
+- name: add repository key
+  apt_key: url=https://deb.nodesource.com/gpgkey/nodesource.gpg.key
+- name: install Node
+  apt: pkg=nodejs state=latest update_cache=yes
