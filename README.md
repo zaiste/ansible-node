@@ -11,7 +11,8 @@ None.
 Role Variables
 --------------
 
-None.
+- `version` defaults to `8.x`
+- `dist` defaults to `artful`
 
 Dependencies
 ------------
@@ -33,4 +34,4 @@ MIT / BSD
 Author Information
 ------------------
 
-[Zaiste](http://zaiste.net) 2014 - 2016
+[Zaiste](http://zaiste.net) 2017
