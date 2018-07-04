@@ -1,6 +1,6 @@
 galaxy_info:
   author: Zaiste
-  description: Ansible role that installs Node for Ubuntu Xenial from the NodeSource APT.
+  description: Ansible role that installs Node for Ubuntu 18.04 (Bionic Beaver) using the NodeSource APT.
   company: Nukomeet
   license: MIT
   min_ansible_version: 1.2

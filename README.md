@@ -1,18 +1,15 @@
-ansible-node
-=========
+# ansible-node
 
-Ansible role that installs Node for Ubuntu Xenial from the NodeSource APT.
+Ansible role that installs Node for Ubuntu 18.04 (Bionic Beaver) using the NodeSource APT.
 
-Requirements
-------------
+## Requirements
 
 None.
 
-Role Variables
---------------
+## Role Variables
 
-- `version` defaults to `8.x`
-- `dist` defaults to `artful`
+- `version` defaults to `10.x`
+- `dist` defaults to `bionic`
 
 Dependencies
 ------------
@@ -34,4 +31,4 @@ MIT / BSD
 Author Information
 ------------------
 
-[Zaiste](http://zaiste.net) 2017
+[Zaiste](http://zaiste.net) 2018
